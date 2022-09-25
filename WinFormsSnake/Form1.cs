@@ -171,7 +171,7 @@ namespace WinFormsSnake
                         case "down":
                             snake[i].Y++;
                             break;
-                        case "Up":
+                        case "Up": // меняем на "up" и все работает.
                             snake[i].Y--;
                             break;
                     }
